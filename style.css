@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.one {
+  height: 325px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.one-one {
+  height: 162.5px;
+  width: inherit;
+  background-color: rgb(160, 187, 211);
+}
+
+.one-two {
+  height: 162.5px;
+  width: inherit;
+  background-color: rgb(96, 172, 238);
+}
+.two {
+  height: 325px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.two-two {
+  height: 150px;
+  width: inherit;
+  background-color: rgb(219, 156, 74);
+}
+
+.two-one {
+  height: 150px;
+  width: inherit;
+  background-color: rgb(27, 17, 3);
+}
+
+.three {
+  height: 325px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.three-two {
+  height: 150px;
+  width: inherit;
+  background-color: aqua;
+}
+
+.three-one {
+  height: 150px;
+  width: inherit;
+  background-color: rgb(11, 97, 97);
+}
+.four {
+  height: 325px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.four-two {
+  height: 150px;
+  width: inherit;
+  background-color: aquamarine;
+}
+
+.four-one {
+  height: 150px;
+  width: inherit;
+  background-color: rgb(13, 87, 62);
+}
